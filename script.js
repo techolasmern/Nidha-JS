@@ -81,3 +81,30 @@ console.log(text)
 console.log(text.trim())
 console.log(text.trimStart())
 console.log(text.trimEnd())
+
+// example for slice
+
+// hide the number -> 9876543210 -> 98******10
+
+const number = 9876543210;
+const numberString = number.toString();
+console.log(numberString)
+
+const left_side = numberString.slice(0, 2);
+const right_side = numberString.slice(-2);
+
+const hiddenNumber = left_side + "******" + right_side;
+console.log(hiddenNumber)
+
+// hide email -> sample_user@gmail.com => sam*****@gmail.com
+
+const email = "sample_user@gmail.com";
+const emailArr = email.split("@");
+const username = emailArr[0].slice(0, 3);
+const domain = emailArr[1];
+const hiddenEmail = username + "*****@" + domain;
+console.log(hiddenEmail)
+
+
+
+
