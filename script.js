@@ -57,3 +57,27 @@ console.log(timestamp)
 
 const dateTime = new Date();
 console.log(dateTime.getFullYear());
+
+// string
+const str = "Techolas Technologies";
+
+console.log(str[10])
+console.log(str.charAt(10))
+console.log(str.indexOf("T", 1))
+console.log(str.length)
+console.log(str.slice(0, 2))
+console.log(str.slice(2, 6))
+console.log(str.slice(-3))
+console.log(str.slice(0, -3))
+console.log(str.includes("Techolas"))
+console.log(str.startsWith("Tech"))
+console.log(str.split(" "));
+// console.log(str.replace("T", "t"))
+console.log(str.replaceAll("T", "t"))
+
+const text = "            hey                              ";
+
+console.log(text)
+console.log(text.trim())
+console.log(text.trimStart())
+console.log(text.trimEnd())
