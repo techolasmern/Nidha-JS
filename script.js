@@ -173,6 +173,27 @@ console.log(array.join(" "));
 console.log(arr.toString())
 
 
+// loops -> repeat- for, while, do while, for in, for of
 
+// for loop
 
+// ++, --
+// let a = 10;
+// let d = 10;
+// const b = a++; // post increment
+// console.log(a)
+// const c = ++d; // pre increment
+// console.log(c)
+// console.log(b)
+// console.log(c)
 
+const array1 = [7, 20, 91, 67, 35, 90, 22, 85];
+for (let i = 0; i < array1.length; i++){
+    if (array1[i] == 20) {
+        continue;
+    }
+    console.log(array1[i])
+}
+
+// string palindrome 
+// prime number
