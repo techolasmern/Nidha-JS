@@ -120,3 +120,59 @@ function getVolume(l, b, h, callback) {
 }
 
 getVolume(10, 20, 30, display);
+
+// array
+const arr = [1, 2, 3, 4, 5, 6];
+console.log(arr);
+
+// array methods
+console.log(arr[3])
+console.log(arr.at(3))
+
+// add/remove value
+arr.unshift(10, 20, 30)
+console.log(arr)
+arr.shift()
+console.log(arr)
+
+arr.push(50, 60, 70);
+console.log(arr)
+arr.pop()
+console.log(arr)
+
+// methods
+console.log(arr.indexOf(4))
+console.log(arr.at(4))
+
+arr[1] = 100;
+console.log(arr)
+
+console.log(arr.length);
+// console.log(arr.reverse())
+
+console.log(arr)
+
+// delete element/s 
+const r = arr.splice(2, 3)
+console.log(arr)
+console.log(r)
+
+// add element/s
+arr.splice(1, 0, 1000, 2000, 3000);
+console.log(arr)
+
+// delete and add element/s
+arr.splice(1, 3, -1, -2, -3);
+console.log(arr)
+
+console.log(arr.includes(200))
+
+const array = [1, 2, 3, 4, 5, 6];
+
+console.log(array.join(" "));
+console.log(arr.toString())
+
+
+
+
+
